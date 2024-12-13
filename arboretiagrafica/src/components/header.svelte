@@ -8,12 +8,7 @@
 <header class="w-full grid">
   <div class="relative justify-self-center">
     <a href="http://arboretiagrafica.com/">
-      <img
-        class="md:hidden"
-        src="src/img/WEB/LOGOS E ICONOS/ARBORETIA_LOGO.png"
-        alt="logo"
-      />
-      <img class="max-md:hidden" src="src/img/WEB/LOGOS E ICONOS/LOGO.png" alt="logo" />
+      <img src="src/img/WEB/SLIDER/LOGO_ARBORETIA.svg" alt="logo" />
     </a>
   </div>
   <div class="hidden absolute top-0 max-w-fit">
