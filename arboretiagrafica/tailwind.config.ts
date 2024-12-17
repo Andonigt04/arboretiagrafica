@@ -27,6 +27,10 @@ export default {
       },
       height: {
         'w': "w-full"
+      },
+      fill: {
+        'E63253': "#E63253",
+        '5B7DF7': "#5B7DF7",
       }
     }
   },

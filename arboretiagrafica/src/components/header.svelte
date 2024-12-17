@@ -1,37 +1,28 @@
-<div class="hidden">
-  <img
-    class="btn-slider-img"
-    src="src/img/WEB/SLIDER/FLECHA _SLIDER.png"
-    alt="..."
-  />
-</div>
-<header class="w-full grid">
-  <div class="relative justify-self-center">
+<header class="w-full h-14 flex justify-between items-center">
+  <div class="flex-none w-52">
     <a href="http://arboretiagrafica.com/">
-      <img src="src/img/WEB/SLIDER/LOGO_ARBORETIA.svg" alt="logo" />
+      <img src="src/img/WEB/LOGOS E ICONOS/LOGO_ARBORETIA.svg" alt="logo" class="max-md:fill-E63253" />
     </a>
   </div>
-  <div class="hidden absolute top-0 max-w-fit">
-    <a href="mailto:arboretia@gmail.com"
-      ><img
-        class="icon_s"
-        src="src/img/WEB/LOGOS E ICONOS/ICONO_EMAIL.png"
-        alt="mail"
-      /></a
-    >
-    <a href="https://instagram.com/arboretia" target="_blank"
-      ><img
-        class="icon_s"
-        src="src/img/WEB/LOGOS E ICONOS/ICONO_IG.png"
-        alt="ins"
-      /></a
-    >
-    <a href="https://www.linkedin.com/in/marta-t-426487239" target="_blank"
-      ><img
-        class="icon_s"
-        src="src/img/WEB/LOGOS E ICONOS/ICONO_IN.png"
-        alt="in"
-      /></a
-    >
-  </div>
+  <nav class="flex-1">
+    <div class="md:hidden">
+      <button type="button"><img src="" alt=""/></button>
+    </div>
+    <div>
+      <ul class="flex justify-end gap-8 max-md:hidden">
+        <li>
+          <a href="/Home">Inicio</a>
+        </li>
+        <li>
+          <a href="/About">Sobre mi</a>
+        </li>
+        <li>
+          <a href="/Services">Servicios</a>
+        </li>
+        <li>
+          <a href="/Contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </header>
