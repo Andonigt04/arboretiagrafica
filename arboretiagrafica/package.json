@@ -1,6 +1,6 @@
 {
 	"name": "arboretiagrafica",
-	"version": "0.0.1",
+	"version": "0.5.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -9,7 +9,14 @@
 		"prepublishOnly": "npm run package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"production": "vite build && vite preview --port 8080 --host",
+		"pm2:start": "pm2 start \"npm run production\" --name arboretiagrafica",
+		"pm2:restart": "vite build && pm2 restart arboretiagrafica --update-env",
+		"pm2:rs": "pm2 restart arboretiagrafica --update-env",
+		"pm2:stop": "pm2 delete arboretiagrafica",
+		"pm2:status": "pm2 status arboretiagrafica",
+		"pm2:logs": "pm2 logs arboretiagrafica"
 	},
 	"files": [
 		"dist",
